@@ -37,7 +37,7 @@ authors="Geisterhand" #optional
 description='PatchMeUp'
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.hauolilottery]] #optional
+[[dependencies.patchmeup]] #optional
 # The modid of the dependency
 modId="forge" #mandatory
 # Does this dependency have to exist - if not, ordering below must be specified
@@ -50,7 +50,7 @@ ordering="NONE"
 side="BOTH"
 
 # Here's another dependency
-[[dependencies.hauolicasino]]
+[[dependencies.patchmeup]]
 modId="minecraft"
 mandatory=true
 versionRange="[1.12.2]"
