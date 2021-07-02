@@ -2,4 +2,4 @@
 
 Simple plugin to set a chance for Ability Patches.
 
-Required the Pixelmon Reforged Mod.
+Requires the Pixelmon Reforged Mod.
