@@ -30,7 +30,7 @@ public class AbilityPatchUseEvent {
             return;
         }
 
-       int chance = (int)(Math.random() * 100);
+       int chance = (int)(Math.random() * 100 + 1);
        if(chance > _config.patchChance) {
            event.setCanceled(true);
            event.getEntityPlayer().sendMessage(Utils.toText(Utils.regex(_config.failMessage)));
