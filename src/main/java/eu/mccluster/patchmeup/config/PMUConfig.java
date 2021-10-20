@@ -22,6 +22,14 @@ public class PMUConfig extends Config {
     @Comment("Message the player gets when the patch fails")
     public String failMessage = "§7The patch is rejected by your pokemon and breaks in the process!";
 
+    @Order(3)
+    @Comment("Make patched Pokemon unbreedable")
+    public boolean makeUnbreedable = false;
+
+    @Order(4)
+    @Comment("Make patched Pokemon untradeable")
+    public boolean makeUntradeable = false;
+
 
     @Override
     public File getFile() {
