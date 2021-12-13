@@ -1,4 +1,4 @@
-package eu.mccluster.patchmeup.utils;
+package eu.pixelunited.patchmeup.utils;
 
 import net.minecraft.util.text.ITextComponent;
 

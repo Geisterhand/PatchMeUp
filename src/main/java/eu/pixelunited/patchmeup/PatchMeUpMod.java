@@ -1,7 +1,5 @@
-package eu.mccluster.patchmeup;
+package eu.pixelunited.patchmeup;
 
-import eu.mccluster.dependency.deploader.api.DependencyLoader;
-import eu.mccluster.dependency.deploader.api.DependencyLoaderApi;
 import lombok.Getter;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -36,7 +34,6 @@ public class PatchMeUpMod {
     @Mod.EventHandler
     public void load(FMLInitializationEvent event) {
         _instance = this;
-        initDependencies();
         PatchMeUp.load();
     }
 
@@ -46,9 +43,4 @@ public class PatchMeUpMod {
         logger.info("Started PatchMeUp!");
     }
 
-    private void initDependencies() {
-        final DependencyLoaderApi depLoader = DependencyLoader.getInstance(this);
-        depLoader.loadDependency("eu.mccluster.dependency:configmanager-dependency:1.1");
-
-    }
 }

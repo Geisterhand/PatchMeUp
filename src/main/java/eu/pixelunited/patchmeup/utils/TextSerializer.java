@@ -1,4 +1,4 @@
-package eu.mccluster.patchmeup.utils;
+package eu.pixelunited.patchmeup.utils;
 
 import com.google.common.collect.Lists;
 import net.minecraft.util.text.ITextComponent;
